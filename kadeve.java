@@ -8,7 +8,7 @@ public class kadeve
 
 
         System.out.printf("Tutar giriniz (Kusuratli girebilirsiniz.):");
-        double tutar = tara.nextInt();
+        double tutar = tara.nextDouble();
 
         double KDVoran = (tutar<1000) ? 0.18:0.08;
 
