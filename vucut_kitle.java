@@ -46,7 +46,7 @@ public class vucut_kitle
 
         else
         {
-            System.out.printf("Cok zayifsiniz");
+            System.out.printf("\nCok zayifsiniz");
         }
 
     }
