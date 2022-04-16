@@ -23,8 +23,12 @@ public class kombinasyon
         if (r>n)
             System.out.printf("Hatali giris yaptiniz!");
 
-        komb = faktCalc(n)/faktCalc(r)/faktCalc(n-r);
-        System.out.printf("\nC(%d,%d)=%d",n,r,komb);
+        else
+        {
+            komb = faktCalc(n)/faktCalc(r)/faktCalc(n-r);
+            System.out.printf("\nC(%d,%d)=%d",n,r,komb);
+        }
+
     }
 
 }
